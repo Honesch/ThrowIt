@@ -1,0 +1,89 @@
+﻿Der Buildvorgang wurde am 07.07.2015 18:28:31 gestartet.
+     1>Projekt "C:\Users\Hannes\Desktop\d\ThrowIt\ThrowIt.vcxproj" auf Knoten "2", Build Ziel(e).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /IC:\Users\Hannes\Desktop\d\External\include /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"C:\Users\Hannes\Desktop\d\build-Debug\\" /Fd"C:\Users\Hannes\Desktop\d\build-Debug\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt main.cpp
+         main.cpp
+     1>c:\users\hannes\desktop\d\throwit\main.cpp(248): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\stdio.h(357): Siehe Deklaration von 'sprintf'
+     1>c:\users\hannes\desktop\d\throwit\main.cpp(252): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\stdio.h(357): Siehe Deklaration von 'sprintf'
+     1>c:\users\hannes\desktop\d\throwit\main.cpp(255): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\stdio.h(357): Siehe Deklaration von 'sprintf'
+     1>c:\users\hannes\desktop\d\throwit\main.cpp(260): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\stdio.h(357): Siehe Deklaration von 'sprintf'
+     1>c:\users\hannes\desktop\d\throwit\main.cpp(263): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\stdio.h(357): Siehe Deklaration von 'sprintf'
+     1>c:\users\hannes\desktop\d\throwit\main.cpp(268): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\stdio.h(357): Siehe Deklaration von 'sprintf'
+     1>c:\users\hannes\desktop\d\throwit\main.cpp(271): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\stdio.h(357): Siehe Deklaration von 'sprintf'
+     1>c:\users\hannes\desktop\d\throwit\main.cpp(276): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\stdio.h(357): Siehe Deklaration von 'sprintf'
+     1>c:\users\hannes\desktop\d\throwit\main.cpp(278): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\stdio.h(357): Siehe Deklaration von 'sprintf'
+     1>c:\users\hannes\desktop\d\throwit\main.cpp(280): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\stdio.h(357): Siehe Deklaration von 'sprintf'
+     1>c:\users\hannes\desktop\d\throwit\main.cpp(282): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\stdio.h(357): Siehe Deklaration von 'sprintf'
+     1>c:\users\hannes\desktop\d\throwit\main.cpp(284): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\stdio.h(357): Siehe Deklaration von 'sprintf'
+     1>c:\users\hannes\desktop\d\throwit\main.cpp(286): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\stdio.h(357): Siehe Deklaration von 'sprintf'
+     1>c:\users\hannes\desktop\d\throwit\main.cpp(291): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\stdio.h(357): Siehe Deklaration von 'sprintf'
+     1>c:\users\hannes\desktop\d\throwit\main.cpp(355): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\stdio.h(357): Siehe Deklaration von 'sprintf'
+     1>c:\users\hannes\desktop\d\throwit\main.cpp(358): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\stdio.h(357): Siehe Deklaration von 'sprintf'
+     1>c:\users\hannes\desktop\d\throwit\main.cpp(363): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\stdio.h(357): Siehe Deklaration von 'sprintf'
+     1>c:\users\hannes\desktop\d\throwit\main.cpp(366): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\stdio.h(357): Siehe Deklaration von 'sprintf'
+     1>c:\users\hannes\desktop\d\throwit\main.cpp(371): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\stdio.h(357): Siehe Deklaration von 'sprintf'
+     1>c:\users\hannes\desktop\d\throwit\main.cpp(374): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\stdio.h(357): Siehe Deklaration von 'sprintf'
+     1>c:\users\hannes\desktop\d\throwit\main.cpp(379): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\stdio.h(357): Siehe Deklaration von 'sprintf'
+     1>c:\users\hannes\desktop\d\throwit\main.cpp(381): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\stdio.h(357): Siehe Deklaration von 'sprintf'
+     1>c:\users\hannes\desktop\d\throwit\main.cpp(383): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\stdio.h(357): Siehe Deklaration von 'sprintf'
+     1>c:\users\hannes\desktop\d\throwit\main.cpp(385): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\stdio.h(357): Siehe Deklaration von 'sprintf'
+     1>c:\users\hannes\desktop\d\throwit\main.cpp(387): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\stdio.h(357): Siehe Deklaration von 'sprintf'
+     1>c:\users\hannes\desktop\d\throwit\main.cpp(389): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\stdio.h(357): Siehe Deklaration von 'sprintf'
+     1>c:\users\hannes\desktop\d\throwit\main.cpp(394): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\stdio.h(357): Siehe Deklaration von 'sprintf'
+     1>c:\users\hannes\desktop\d\throwit\main.cpp(814): warning C4244: 'Initialisierung': Konvertierung von 'double' in 'float', möglicher Datenverlust
+     1>c:\users\hannes\desktop\d\throwit\main.cpp(853): warning C4244: 'Initialisierung': Konvertierung von 'double' in 'float', möglicher Datenverlust
+     1>c:\users\hannes\desktop\d\throwit\main.cpp(980): warning C4305: 'Argument': Verkürzung von 'double' in 'GLclampf'
+     1>c:\users\hannes\desktop\d\throwit\main.cpp(1213): warning C4244: 'Argument': Konvertierung von 'double' in 'int', möglicher Datenverlust
+     1>c:\users\hannes\desktop\d\throwit\main.cpp(1524): warning C4244: 'Argument': Konvertierung von 'double' in 'GLfloat', möglicher Datenverlust
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Hannes\Desktop\d\Debug\ThrowIt.exe" /INCREMENTAL /NOLOGO /LIBPATH:C:\Users\Hannes\Desktop\d\External\lib glew32.lib opengl32.lib glfw3.lib assimp.lib FreeImage.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /NODEFAULTLIB:MSVCRT /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\Hannes\Desktop\d\Debug\ThrowIt.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\Hannes\Desktop\d\Debug\ThrowIt.lib" /MACHINE:X86 "C:\Users\Hannes\Desktop\d\build-Debug\AABox.obj"
+         "C:\Users\Hannes\Desktop\d\build-Debug\DirectionalLight.obj"
+         "C:\Users\Hannes\Desktop\d\build-Debug\FrustumG.obj"
+         "C:\Users\Hannes\Desktop\d\build-Debug\Kamera.obj"
+         "C:\Users\Hannes\Desktop\d\build-Debug\main.obj"
+         "C:\Users\Hannes\Desktop\d\build-Debug\Modell.obj"
+         "C:\Users\Hannes\Desktop\d\build-Debug\Partikelsystem.obj"
+         "C:\Users\Hannes\Desktop\d\build-Debug\Plane.obj"
+         "C:\Users\Hannes\Desktop\d\build-Debug\Player.obj"
+         "C:\Users\Hannes\Desktop\d\build-Debug\SBtexture.obj"
+         "C:\Users\Hannes\Desktop\d\build-Debug\Shaderloader.obj"
+         "C:\Users\Hannes\Desktop\d\build-Debug\skybox.obj"
+         "C:\Users\Hannes\Desktop\d\build-Debug\text2D.obj"
+         "C:\Users\Hannes\Desktop\d\build-Debug\Texture.obj"
+         "C:\Users\Hannes\Desktop\d\build-Debug\texture2D.obj"
+         "C:\Users\Hannes\Desktop\d\build-Debug\ThrowAble.obj"
+         "C:\Users\Hannes\Desktop\d\build-Debug\vertexBufferObject.obj"
+         "C:\Users\Hannes\Desktop\d\build-Debug\Waterplane.obj"
+         ThrowIt.vcxproj -> C:\Users\Hannes\Desktop\d\Debug\ThrowIt.exe
+     1>Die Erstellung des Projekts "C:\Users\Hannes\Desktop\d\ThrowIt\ThrowIt.vcxproj" ist abgeschlossen, Build Ziel(e).
+
+Build erfolgreich.
+
+Verstrichene Zeit 00:00:06.54
