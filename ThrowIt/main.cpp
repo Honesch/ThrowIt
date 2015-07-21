@@ -904,42 +904,12 @@ void update(float time_delta)
 
 void initWindow(int argc, char** argv)
 {
+	
 	if (!glfwInit())
 	{
 		system("PAUSE");
 		exit(EXIT_FAILURE);
 	}
-
-	#if _DEBUG
-		// Create a debug OpenGL context or tell your OpenGL library (GLFW, SDL) to do so.
-		glfwWindowHint(GLFW_OPENGL_DEBUG_CONTEXT, GL_TRUE);
-	#endif
-
-	#if _DEBUG
-    // Query the OpenGL function to register your callback function.
-    PFNGLDEBUGMESSAGECALLBACKPROC _glDebugMessageCallback = (PFNGLDEBUGMESSAGECALLBACKPROC) wglGetProcAddress("glDebugMessageCallback");
-    PFNGLDEBUGMESSAGECALLBACKARBPROC _glDebugMessageCallbackARB = (PFNGLDEBUGMESSAGECALLBACKARBPROC) wglGetProcAddress("glDebugMessageCallbackARB");
-    PFNGLDEBUGMESSAGECALLBACKAMDPROC _glDebugMessageCallbackAMD = (PFNGLDEBUGMESSAGECALLBACKAMDPROC) wglGetProcAddress("glDebugMessageCallbackAMD");
-
-    if(_glDebugMessageCallback != NULL) {
-        _glDebugMessageCallback(DebugCallback, NULL);
-    }
-    else if (_glDebugMessageCallbackARB != NULL) {
-        _glDebugMessageCallbackARB(DebugCallback, NULL);
-    }
-    else if (_glDebugMessageCallbackAMD != NULL) {
-        _glDebugMessageCallbackAMD(DebugCallbackAMD, NULL);
-    }
- 
-    // Enable synchronous callback. This ensures that your callback function is called
-    // right after an error has occurred. This capability is not defined in the AMD
-    // version.
-    if ((_glDebugMessageCallback != NULL) || (_glDebugMessageCallbackARB != NULL)) {
-        
-		(GL_DEBUG_OUTPUT_SYNCHRONOUS);
-    }
-	#endif
-
 
 	glfwWindowHint(GLFW_CONTEXT_VERSION_MAJOR, 3);
 	glfwWindowHint(GLFW_CONTEXT_VERSION_MINOR, 3);
@@ -987,6 +957,43 @@ void initWindow(int argc, char** argv)
 		//Error
 		std::cout << glewGetErrorString(err);
 	}
+
+	#if _DEBUG
+		// Create a debug OpenGL context or tell your OpenGL library (GLFW, SDL) to do so.
+		glfwWindowHint(GLFW_OPENGL_DEBUG_CONTEXT, GL_TRUE);
+	#endif
+
+	#if _DEBUG
+    // Query the OpenGL function to register your callback function.
+    PFNGLDEBUGMESSAGECALLBACKPROC _glDebugMessageCallback = (PFNGLDEBUGMESSAGECALLBACKPROC) wglGetProcAddress("glDebugMessageCallback");
+    PFNGLDEBUGMESSAGECALLBACKARBPROC _glDebugMessageCallbackARB = (PFNGLDEBUGMESSAGECALLBACKARBPROC) wglGetProcAddress("glDebugMessageCallbackARB");
+    PFNGLDEBUGMESSAGECALLBACKAMDPROC _glDebugMessageCallbackAMD = (PFNGLDEBUGMESSAGECALLBACKAMDPROC) wglGetProcAddress("glDebugMessageCallbackAMD");
+
+    if(_glDebugMessageCallback != NULL) {
+        _glDebugMessageCallback(DebugCallback, NULL);
+    }
+    else if (_glDebugMessageCallbackARB != NULL) {
+        _glDebugMessageCallbackARB(DebugCallback, NULL);
+    }
+    else if (_glDebugMessageCallbackAMD != NULL) {
+        _glDebugMessageCallbackAMD(DebugCallbackAMD, NULL);
+    }
+ 
+    // Enable synchronous callback. This ensures that your callback function is called
+    // right after an error has occurred. This capability is not defined in the AMD
+    // version.
+    if ((_glDebugMessageCallback != NULL) || (_glDebugMessageCallbackARB != NULL)) {
+        
+		(GL_DEBUG_OUTPUT_SYNCHRONOUS);
+    }
+	#endif
+
+	glDebugMessageCallback(DebugCallback,NULL);
+	glDebugMessageCallbackARB(DebugCallback,NULL);
+	glDebugMessageCallbackAMD(DebugCallbackAMD,NULL);
+	_glDebugMessageCallback(DebugCallback, NULL);
+	_glDebugMessageCallbackARB(DebugCallback, NULL);
+	_glDebugMessageCallbackAMD(DebugCallbackAMD, NULL);
 }
 
 static void key_callback(GLFWwindow* window, int key, int scancode, int action, int mods)
