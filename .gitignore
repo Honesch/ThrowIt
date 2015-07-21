@@ -40,3 +40,4 @@ build-Debug
 Debug
 *.suo
 *.sdf
+*.opensdf
