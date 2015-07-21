@@ -36,3 +36,7 @@
 *.idb
 
 
+build-Debug
+Debug
+*.suo
+*.sdf
